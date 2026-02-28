@@ -22,7 +22,8 @@ add_library("${LIBRARY_NAME}" "${Header_Files}" "${Source_Files}")
 
 find_package(OpenSSL REQUIRED)
 find_package(libzip CONFIG REQUIRED)
-find_package(CURL CONFIG REQUIRED)
+#find_package(CURL CONFIG REQUIRED)
+find_package(CURL REQUIRED)
 
 target_link_libraries(
         "${LIBRARY_NAME}"

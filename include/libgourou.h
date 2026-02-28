@@ -27,6 +27,8 @@
 #include "drmprocessorclient.h"
 
 #include <pugixml.hpp>
+#include <cstdint>
+
 
 #ifndef HOBBES_DEFAULT_VERSION
 #define HOBBES_DEFAULT_VERSION  "10.0.4"

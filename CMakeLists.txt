@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 3.10)
 project(libgourou VERSION 0.8.0 LANGUAGES CXX)
 
 set(CMAKE_C_VISIBILITY_PRESET hidden)

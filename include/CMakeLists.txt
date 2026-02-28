@@ -22,7 +22,7 @@ target_link_libraries(
         INTERFACE
         "${PROJECT_NAME_NO_PREFIX}_compiler_flags"
         "pugixml"
-        "pugixml::static"
+#        "pugixml::static"
         "pugixml::pugixml"
 )
 

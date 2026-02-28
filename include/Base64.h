@@ -28,6 +28,7 @@
 #include <string>
 
 #include "libgourou_export.h"
+#include <cstdint>
 
 namespace macaron {
 
