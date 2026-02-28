@@ -1,3 +1,17 @@
+Fork Changes
+------------
+
+- Make the build pass
+- For OpenSuse, you need to install the following packages before building
+
+```bash
+sudo zypper install -y \
+    libcurl-devel \
+    libzip-devel \
+    libopenssl-3-devel
+```
+
+
 Introduction
 ------------
 
